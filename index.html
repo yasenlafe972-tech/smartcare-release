@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartCare — تحميل التطبيق الرسمي</title>
+  <style>
+    :root {
+      --primary: #EF4444;
+      --bg: #0F172A;
+      --card: #1E293B;
+      --text: #F8FAFC;
+      --sub: #94A3B8;
+      --accent: #10B981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 24px;
+      max-width: 460px;
+      width: 100%;
+      padding: 32px 24px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+      border: 1px solid rgba(255,255,255,0.08);
+      text-align: center;
+    }
+    .logo {
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(135deg, #EF4444, #F43F5E);
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      margin-bottom: 16px;
+      box-shadow: 0 10px 20px rgba(239, 68, 68, 0.3);
+    }
+    h1 { font-size: 22px; margin-bottom: 6px; font-weight: 800; }
+    .badge {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    p { color: var(--sub); font-size: 14px; line-height: 1.6; margin-bottom: 24px; }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 14px 20px;
+      border-radius: 14px;
+      font-size: 15px;
+      font-weight: 700;
+      text-decoration: none;
+      margin-bottom: 12px;
+      transition: transform 0.15s, opacity 0.15s;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn-ios {
+      background: #007AFF;
+      color: white;
+      box-shadow: 0 8px 18px rgba(0, 122, 255, 0.3);
+    }
+    .btn-android {
+      background: #10B981;
+      color: white;
+      box-shadow: 0 8px 18px rgba(16, 185, 129, 0.3);
+    }
+    .btn-sub {
+      background: rgba(255,255,255,0.06);
+      color: var(--sub);
+      font-size: 13px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .footer {
+      margin-top: 16px;
+      font-size: 11px;
+      color: var(--sub);
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">🩺</div>
+    <h1>SmartCare</h1>
+    <div class="badge">الإصدار 2.0.15 (بناء 181) — دائم</div>
+    <p>نظام ذكي لإدارة السكري ومتابعة القياسات والتنبيهات الصوتية الحية.</p>
+
+    <a href="SmartCare.ipa" class="btn btn-ios">
+      <span>🍏</span>
+      <span>تحميل ملف الآيفون المباشر (SmartCare.ipa)</span>
+    </a>
+
+    <a href="SmartCare_v181.ipa" class="btn btn-sub">
+      <span>📥</span>
+      <span>رابط مباشر بديل (SmartCare_v181.ipa)</span>
+    </a>
+
+    <a href="https://github.com/yasenlafe972-tech/smartcare-release/releases/download/v2.0.15-181/SmartCare_v181.apk" class="btn btn-android">
+      <span>🤖</span>
+      <span>تحميل ملف أندرويد (SmartCare_v181.apk)</span>
+    </a>
+
+    <div class="footer">
+      جميع الروابط في هذه الصفحة دائمة ومستضافة رسمياً عبر شبكة GitHub CDN العالمية.
+    </div>
+  </div>
+</body>
+</html>
