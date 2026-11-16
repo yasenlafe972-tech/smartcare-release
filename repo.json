@@ -23,7 +23,7 @@
       "versionDate": "2026-11-16T15:30:00+02:00",
       "versionDescription": "• نقل نوفونورم 0.5 ملغ (قبل الأكل) لقسم الدواء أسفل الصباح والليل\n• إمكانية تسجيل نوفونورم منفرداً قبل الأكل بتأكيد صريح وقراءة السكر\n• تفعيل خطة الـ 3 أشهر (90 حبة) وحساب أدوية اليوم (من 3)",
       "downloadURL": "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v183.ipa",
-      "size": 18645908,
+      "size": 18454103,
       "versions": [
         {
           "version": "2.0.17",
@@ -31,7 +31,7 @@
           "date": "2026-11-16T15:30:00+02:00",
           "localizedDescription": "• نقل نوفونورم 0.5 ملغ (قبل الأكل) لقسم الدواء أسفل الصباح والليل\n• إمكانية تسجيل نوفونورم منفرداً قبل الأكل بتأكيد صريح وقراءة السكر\n• تفعيل خطة الـ 3 أشهر (90 حبة) وحساب أدوية اليوم (من 3)",
           "downloadURL": "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v183.ipa",
-          "size": 18645908
+          "size": 18454103
         }
       ],
       "appPermissions": {
