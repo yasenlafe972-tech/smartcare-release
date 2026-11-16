@@ -1,0 +1,47 @@
+{
+  "name": "SmartCare Official",
+  "subtitle": "المصدر الرسمي الدائم لتحديثات تطبيق SmartCare",
+  "description": "المصدر الرسمي لمتابعة السكري وإدارة الأدوية والتنبيهات الصوتية الحية.",
+  "identifier": "com.smartcare.repo",
+  "iconURL": "https://yasenlafe972-tech.github.io/smartcare-release/icon.png",
+  "website": "https://yasenlafe972-tech.github.io/smartcare-release/",
+  "tintColor": "#EF4444",
+  "featuredApps": [
+    "com.smartcare.smartcare"
+  ],
+  "apps": [
+    {
+      "name": "SmartCare",
+      "bundleIdentifier": "com.smartcare.smartcare",
+      "developerName": "SmartCare Team",
+      "subtitle": "إدارة السكري والأدوية والتنبيهات الصوتية",
+      "localizedDescription": "تطبيق ذكي لإدارة السكري، متابعة قراءات السنسور الحية، جدولة الأدوية اليومية بما فيها نوفونورم 0.5 ملغ قبل الأكل، وتنبيهات صوتية عربية.",
+      "iconURL": "https://yasenlafe972-tech.github.io/smartcare-release/icon.png",
+      "tintColor": "#EF4444",
+      "category": "medical",
+      "version": "2.0.17",
+      "versionDate": "2026-11-16T15:30:00+02:00",
+      "versionDescription": "• نقل نوفونورم 0.5 ملغ (قبل الأكل) لقسم الدواء أسفل الصباح والليل\n• إمكانية تسجيل نوفونورم منفرداً قبل الأكل بتأكيد صريح وقراءة السكر\n• تفعيل خطة الـ 3 أشهر (90 حبة) وحساب أدوية اليوم (من 3)",
+      "downloadURL": "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v183.ipa",
+      "size": 18645908,
+      "versions": [
+        {
+          "version": "2.0.17",
+          "buildVersion": "183",
+          "date": "2026-11-16T15:30:00+02:00",
+          "localizedDescription": "• نقل نوفونورم 0.5 ملغ (قبل الأكل) لقسم الدواء أسفل الصباح والليل\n• إمكانية تسجيل نوفونورم منفرداً قبل الأكل بتأكيد صريح وقراءة السكر\n• تفعيل خطة الـ 3 أشهر (90 حبة) وحساب أدوية اليوم (من 3)",
+          "downloadURL": "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v183.ipa",
+          "size": 18645908
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "مسح عبوات الأدوية ورموز الاستجابة",
+          "NSMicrophoneUsageDescription": "تشغيل وإدارة التنبيهات الصوتية"
+        }
+      }
+    }
+  ],
+  "news": []
+}

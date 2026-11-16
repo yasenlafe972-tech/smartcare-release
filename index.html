@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SmartCare — تحميل التطبيق الرسمي</title>
+  <title>SmartCare — بوابة التحميل والمصدر الدائم للآيفون</title>
   <style>
     :root {
       --primary: #EF4444;
@@ -12,6 +12,8 @@
       --text: #F8FAFC;
       --sub: #94A3B8;
       --accent: #10B981;
+      --ios: #007AFF;
+      --orange: #EA580C;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
     body {
@@ -22,29 +24,25 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 24px;
+      padding: 20px;
     }
     .card {
       background: var(--card);
       border-radius: 24px;
-      max-width: 460px;
+      max-width: 470px;
       width: 100%;
-      padding: 32px 24px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+      padding: 28px 22px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.45);
       border: 1px solid rgba(255,255,255,0.08);
       text-align: center;
     }
     .logo {
-      width: 72px;
-      height: 72px;
-      background: linear-gradient(135deg, #EF4444, #F43F5E);
-      border-radius: 20px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 36px;
-      margin-bottom: 16px;
-      box-shadow: 0 10px 20px rgba(239, 68, 68, 0.3);
+      width: 76px;
+      height: 76px;
+      border-radius: 18px;
+      margin-bottom: 14px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+      object-fit: cover;
     }
     h1 { font-size: 22px; margin-bottom: 6px; font-weight: 800; }
     .badge {
@@ -55,63 +53,121 @@
       border-radius: 20px;
       font-size: 12px;
       font-weight: 700;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
-    p { color: var(--sub); font-size: 14px; line-height: 1.6; margin-bottom: 24px; }
+    p { color: var(--sub); font-size: 13.5px; line-height: 1.6; margin-bottom: 20px; }
+    .section-title {
+      text-align: right;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--sub);
+      margin: 14px 4px 8px;
+    }
     .btn {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 8px;
       width: 100%;
-      padding: 14px 20px;
+      padding: 13px 16px;
       border-radius: 14px;
-      font-size: 15px;
+      font-size: 14.5px;
       font-weight: 700;
       text-decoration: none;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      border: none;
       transition: transform 0.15s, opacity 0.15s;
     }
     .btn:active { transform: scale(0.98); }
-    .btn-ios {
-      background: #007AFF;
+    .btn-repo {
+      background: linear-gradient(135deg, #6366F1, #4F46E5);
       color: white;
-      box-shadow: 0 8px 18px rgba(0, 122, 255, 0.3);
+      box-shadow: 0 8px 18px rgba(99, 102, 241, 0.3);
+    }
+    .btn-ios {
+      background: var(--ios);
+      color: white;
+      box-shadow: 0 8px 18px rgba(0, 122, 255, 0.25);
     }
     .btn-android {
-      background: #10B981;
+      background: var(--accent);
       color: white;
-      box-shadow: 0 8px 18px rgba(16, 185, 129, 0.3);
+      box-shadow: 0 8px 18px rgba(16, 185, 129, 0.25);
     }
     .btn-sub {
       background: rgba(255,255,255,0.06);
-      color: var(--sub);
-      font-size: 13px;
+      color: #CBD5E1;
+      font-size: 12.5px;
       border: 1px solid rgba(255,255,255,0.1);
     }
+    .repo-box {
+      background: rgba(15, 23, 42, 0.65);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+      text-align: left;
+      direction: ltr;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .repo-url {
+      font-size: 11px;
+      color: #93C5FD;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-family: monospace;
+    }
+    .copy-btn {
+      background: rgba(99, 102, 241, 0.25);
+      color: #E0E7FF;
+      border: 1px solid rgba(99, 102, 241, 0.45);
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
     .footer {
-      margin-top: 16px;
+      margin-top: 14px;
       font-size: 11px;
       color: var(--sub);
-      opacity: 0.7;
+      opacity: 0.75;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <div class="logo">🩺</div>
+    <img src="icon.png" alt="SmartCare" class="logo">
     <h1>SmartCare</h1>
-    <div class="badge">الإصدار 2.0.17 (بناء 183) — دائم</div>
-    <p>نظام ذكي لإدارة السكري ومتابعة القياسات والتنبيهات الصوتية الحية.</p>
+    <div class="badge">الإصدار 2.0.17 (بناء 183) — روابط دائمة</div>
+    <p>متابعة السكري الحية، إدارة دواء نوفونورم قبل الأكل، والتنبيهات الصوتية العربية.</p>
 
+    <div class="section-title">🍏 تحديثات الآيفون التلقائية (المصدر الرسمي للآيفون)</div>
+    <a href="altstore://source?url=https://yasenlafe972-tech.github.io/smartcare-release/repo.json" class="btn btn-repo">
+      <span>⚡</span>
+      <span>إضافة المصدر تلقائياً (AltStore / SideStore)</span>
+    </a>
+
+    <div class="repo-box">
+      <span class="repo-url" id="repoUrl">https://yasenlafe972-tech.github.io/smartcare-release/repo.json</span>
+      <button class="copy-btn" onclick="copyText('https://yasenlafe972-tech.github.io/smartcare-release/repo.json', this)">نسخ للـ ESign</button>
+    </div>
+
+    <div class="repo-box">
+      <span class="repo-url" id="scarletUrl">https://yasenlafe972-tech.github.io/smartcare-release/scarlet.json</span>
+      <button class="copy-btn" onclick="copyText('https://yasenlafe972-tech.github.io/smartcare-release/scarlet.json', this)">نسخ للـ Scarlet</button>
+    </div>
+
+    <div class="section-title">📦 التحميل المباشر للملفات</div>
     <a href="SmartCare.ipa" class="btn btn-ios">
       <span>🍏</span>
       <span>تحميل ملف الآيفون المباشر (SmartCare.ipa)</span>
-    </a>
-
-    <a href="SmartCare_v183.ipa" class="btn btn-sub">
-      <span>📥</span>
-      <span>رابط مباشر بديل (SmartCare_v183.ipa)</span>
     </a>
 
     <a href="https://github.com/yasenlafe972-tech/smartcare-release/releases/download/v2.0.17-183/SmartCare_v183.apk" class="btn btn-android">
@@ -120,8 +176,18 @@
     </a>
 
     <div class="footer">
-      جميع الروابط في هذه الصفحة دائمة ومستضافة رسمياً عبر شبكة GitHub CDN العالمية.
+      جميع الروابط ومصدر الآيفون مستضافة بشكل أبدي عبر GitHub CDN.
     </div>
   </div>
+
+  <script>
+    function copyText(txt, btn) {
+      navigator.clipboard.writeText(txt).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = 'تم النسخ ✓';
+        setTimeout(() => { btn.textContent = orig; }, 1600);
+      });
+    }
+  </script>
 </body>
 </html>
