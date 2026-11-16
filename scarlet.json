@@ -1,17 +1,17 @@
 {
-  "META": {
-    "repoName": "SmartCare Official",
-    "repoIcon": "https://yasenlafe972-tech.github.io/smartcare-release/icon.png"
-  },
-  "Medical": [
-    {
-      "name": "SmartCare",
-      "version": "2.0.17",
-      "down": "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v183.ipa",
-      "dev": "SmartCare Team",
-      "icon": "https://yasenlafe972-tech.github.io/smartcare-release/icon.png",
-      "bundleID": "com.smartcare.smartcare",
-      "description": "نوفونورم 0.5 ملغ قبل الأكل، تنبيهات صوتية عربية، ومتابعة السكري والأدوية اليومية (بناء 183)"
-    }
-  ]
+    "META":  {
+                 "repoName":  "SmartCare Official",
+                 "repoIcon":  "https://yasenlafe972-tech.github.io/smartcare-release/icon.png"
+             },
+    "Medical":  [
+                    {
+                        "version":  "2.0.18",
+                        "name":  "SmartCare",
+                        "bundleID":  "com.smartcare.smartcare",
+                        "description":  "نوفونورم 0.5 ملغ قبل الأكل، تنبيهات صوتية عربية، ومتابعة السكري والأدوية اليومية (بناء 184)",
+                        "icon":  "https://yasenlafe972-tech.github.io/smartcare-release/icon.png",
+                        "dev":  "SmartCare Team",
+                        "down":  "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v184.ipa"
+                    }
+                ]
 }

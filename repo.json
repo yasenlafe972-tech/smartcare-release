@@ -1,47 +1,51 @@
 {
-  "name": "SmartCare Official",
-  "subtitle": "المصدر الرسمي الدائم لتحديثات تطبيق SmartCare",
-  "description": "المصدر الرسمي لمتابعة السكري وإدارة الأدوية والتنبيهات الصوتية الحية.",
-  "identifier": "com.smartcare.repo",
-  "iconURL": "https://yasenlafe972-tech.github.io/smartcare-release/icon.png",
-  "website": "https://yasenlafe972-tech.github.io/smartcare-release/",
-  "tintColor": "#EF4444",
-  "featuredApps": [
-    "com.smartcare.smartcare"
-  ],
-  "apps": [
-    {
-      "name": "SmartCare",
-      "bundleIdentifier": "com.smartcare.smartcare",
-      "developerName": "SmartCare Team",
-      "subtitle": "إدارة السكري والأدوية والتنبيهات الصوتية",
-      "localizedDescription": "تطبيق ذكي لإدارة السكري، متابعة قراءات السنسور الحية، جدولة الأدوية اليومية بما فيها نوفونورم 0.5 ملغ قبل الأكل، وتنبيهات صوتية عربية.",
-      "iconURL": "https://yasenlafe972-tech.github.io/smartcare-release/icon.png",
-      "tintColor": "#EF4444",
-      "category": "medical",
-      "version": "2.0.17",
-      "versionDate": "2026-11-16T15:30:00+02:00",
-      "versionDescription": "• نقل نوفونورم 0.5 ملغ (قبل الأكل) لقسم الدواء أسفل الصباح والليل\n• إمكانية تسجيل نوفونورم منفرداً قبل الأكل بتأكيد صريح وقراءة السكر\n• تفعيل خطة الـ 3 أشهر (90 حبة) وحساب أدوية اليوم (من 3)",
-      "downloadURL": "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v183.ipa",
-      "size": 18454103,
-      "versions": [
-        {
-          "version": "2.0.17",
-          "buildVersion": "183",
-          "date": "2026-11-16T15:30:00+02:00",
-          "localizedDescription": "• نقل نوفونورم 0.5 ملغ (قبل الأكل) لقسم الدواء أسفل الصباح والليل\n• إمكانية تسجيل نوفونورم منفرداً قبل الأكل بتأكيد صريح وقراءة السكر\n• تفعيل خطة الـ 3 أشهر (90 حبة) وحساب أدوية اليوم (من 3)",
-          "downloadURL": "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v183.ipa",
-          "size": 18454103
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {
-          "NSCameraUsageDescription": "مسح عبوات الأدوية ورموز الاستجابة",
-          "NSMicrophoneUsageDescription": "تشغيل وإدارة التنبيهات الصوتية"
-        }
-      }
-    }
-  ],
-  "news": []
+    "news":  [
+
+             ],
+    "description":  "المصدر الرسمي لمتابعة السكري وإدارة الأدوية والتنبيهات الصوتية الحية.",
+    "subtitle":  "المصدر الرسمي الدائم لتحديثات تطبيق SmartCare",
+    "iconURL":  "https://yasenlafe972-tech.github.io/smartcare-release/icon.png",
+    "apps":  [
+                 {
+                     "iconURL":  "https://yasenlafe972-tech.github.io/smartcare-release/icon.png",
+                     "version":  "2.0.18",
+                     "subtitle":  "إدارة السكري والأدوية والتنبيهات الصوتية",
+                     "versionDescription":  "• حزمة آيفون قياسية جاهزة للتثبيت والتوقيع المعتاد بدون قيود\n• نوفونورم 0.5 ملغ (قبل الأكل) ضمن قسم الدواء مع خيار التسجيل المنفرد",
+                     "appPermissions":  {
+                                            "entitlements":  [
+
+                                                             ],
+                                            "privacy":  {
+                                                            "NSCameraUsageDescription":  "مسح عبوات الأدوية ورموز الاستجابة",
+                                                            "NSMicrophoneUsageDescription":  "تشغيل وإدارة التنبيهات الصوتية"
+                                                        }
+                                        },
+                     "versions":  [
+                                      {
+                                          "version":  "2.0.18",
+                                          "downloadURL":  "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v184.ipa",
+                                          "localizedDescription":  "• حزمة آيفون قياسية جاهزة للتثبيت والتوقيع المعتاد بدون قيود\n• نوفونورم 0.5 ملغ (قبل الأكل) ضمن قسم الدواء مع خيار التسجيل المنفرد",
+                                          "date":  "2026-11-16T18:56:07+02:00",
+                                          "buildVersion":  "184",
+                                          "size":  18647297
+                                      }
+                                  ],
+                     "bundleIdentifier":  "com.smartcare.smartcare",
+                     "developerName":  "SmartCare Team",
+                     "name":  "SmartCare",
+                     "versionDate":  "2026-11-16T18:56:07+02:00",
+                     "category":  "medical",
+                     "downloadURL":  "https://yasenlafe972-tech.github.io/smartcare-release/SmartCare_v184.ipa",
+                     "tintColor":  "#EF4444",
+                     "size":  18647297,
+                     "localizedDescription":  "تطبيق ذكي لإدارة السكري، متابعة قراءات السنسور الحية، جدولة الأدوية اليومية بما فيها نوفونورم 0.5 ملغ قبل الأكل، وتنبيهات صوتية عربية."
+                 }
+             ],
+    "featuredApps":  [
+                         "com.smartcare.smartcare"
+                     ],
+    "tintColor":  "#EF4444",
+    "name":  "SmartCare Official",
+    "website":  "https://yasenlafe972-tech.github.io/smartcare-release/",
+    "identifier":  "com.smartcare.repo"
 }
